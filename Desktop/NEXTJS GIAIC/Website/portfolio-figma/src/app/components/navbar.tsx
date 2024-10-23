@@ -45,9 +45,9 @@ const Navbar = () => {
 
       {/* Dropdown Menu for small screens */}
       <div className={`absolute top-16 right-0 w-full bg-gray-800 text-white ${isOpen ? 'block' : 'hidden'} md:hidden`}>
-        <Link href="#home" className="block px-4 py-2 hover:bg-gray-700">Home</Link>
-        <Link href="#projects" className="block px-4 py-2 hover:bg-gray-700">Projects</Link>
-        <Link href="#skills" className="block px-4 py-2 hover:bg-gray-700">Skills</Link>
+        <Link href="/" className="block px-4 py-2 hover:bg-gray-700">Home</Link>
+        <Link href="/projects" className="block px-4 py-2 hover:bg-gray-700">Projects</Link>
+        <Link href="/skills" className="block px-4 py-2 hover:bg-gray-700">Skills</Link>
       </div>
     </nav>
   );
